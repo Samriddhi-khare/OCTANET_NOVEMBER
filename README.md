@@ -1,2 +1,2 @@
 # OCTANET_NOVEMBER
- I Have creted a landing page with the help of HTML and CSS.
+ I Have created a landing page with the help of HTML and CSS.
