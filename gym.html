@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam gym</title>
+    <link rel="stylesheet" href="gym.css">
+    <style>
+        /* css reset */
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0px;
+    padding: 0px;
+    color: WHITE;
+    background-color: rgb(106, 106, 227);
+    background-image: url(pg.jpg);
+    height: auto;
+    width: auto;
+       }
+    .header{
+        background-color: brown;
+    }
+    
+
+.left{
+    display: inline-block;
+    
+    position: absolute;
+    left: 38px;
+    top: 25px;
+
+}
+.left img{
+    width: 100px;
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 44%;
+    margin: 25px auto;
+    
+    
+}
+.right{
+    position: absolute;
+    right: 49px;
+    top: 39px;
+   
+    display: inline-block;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    color: white;
+    font-size: medium;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px
+    
+}
+.navbar li a:hover,.navbar li a.active{
+    cursor: pointer;
+    color: rgb(230, 0, 255);
+    text-decoration: underline;
+    
+}
+.btn{
+    margin: -2px -6px;
+    background-color: brown;
+    color: white;
+    padding: 0px 0px;
+    border: 2px solid black;
+    border-radius: -12px ;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+.btn:hover{
+    background-color: yellow;
+    color: red;
+}
+.container{
+    position: absolute;
+    right: 38px;
+    top: 150px;
+    border: 2px solid brown;
+    margin: 4px 4px;
+    padding: 14px 2px;
+    width:33%;
+    border-radius:50px;
+    text-align: center;
+
+}
+.classgroup input{
+    text-align: center;
+    display: block;
+    width: 390px;
+    padding: 19px;
+    border-radius: 28 px solid brown;
+    margin: 27px;
+}
+.container h1{
+    text-align: center;
+    background-color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.container button{
+    
+    position: absolute;
+    left: 101px;
+    right: 19px;
+    display: block;
+    width: 58%;
+    margin: 25px;
+    padding: 12px;
+    
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+    </style>
+</head>
+<body>
+   
+   <header class="header">
+    <!-- left box for logo  -->
+    <div class="left">
+        <img src="logo2.png" alt="">
+        <div> <STRong> FITNESS </STRong> </div>
+    </div>
+    
+    <!-- mid box for navbar -->
+    <div class="mid">
+ <ul class="navbar">
+    <li><a href="#"class="active"></a>HOME</li>
+    <li><a href="#"></a>ABOUT US</li>
+    <li><a href="#"></a>FITNESS CENTER</li>
+    <li><a href="#"></a>CONTACT US</li>
+ </ul>
+    </div>
+   <!-- right box for buttons-->
+    <div class="right">
+<button><div class="btn">CALL US </div></button>
+<button><div class="btn">  EMAIL US</div></button>
+    </div>
+   </header>
+   <br><br><br><br>
+
+
+   <div class="container">
+    <h1> JOIN THE BEST GYM NOW </h1>
+    <form action="noaction.php">
+        <div class="classgroup">
+            <input type="text" name=" " placeholder="ENTER YOUR NAME">
+        </div>
+        <div class="classgroup">
+            <input type="text" name=" " placeholder="ENTER YOUR AGE">
+        </div>
+        <div class="classgroup">
+            <input type="text" name=" " placeholder="ENTER YOUR GENDER">
+        </div>
+        <div class="classgroup">
+            <input type="text" name=" " placeholder="ENTER YOUR LOCALITY">
+        </div>
+        <BUTTON class="BTN"><STRONg>SUBMIT</STRONg></BUTTON>
+    </form>
+   </div>
+    
+    
+</body>
+</html>
